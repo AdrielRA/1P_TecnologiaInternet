@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Meu site em jQuery 001</title>
+	<meta charset="utf-8">
+	<meta lang="pt-BR">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+
+			/*
+			$('h1').css("color","#F66");
+			$('h1').hide();
+			$('h1').delay('1000');
+			$('h1').fadeIn("slow");
+			$('h1').text('Aprendendo jQuery');
+			
+			$('h1').css("color", "#F66").hide().delay('1000').fadeIn("slow").text('Aprendendo jQuery');
+			
+			$('a').css({color:'red', display:'block'});
+			$('.link2').css("color", "green");
+			$('#link3').css("color", "#000");
+			$('*').css("padding", "10px");
+			$('h1', '#link3').css("border-bottom", "solid 3px blue");
+			*/
+
+			$('h1')
+				.css("color","#F66")
+				.hide()
+				.delay('1000')
+				.fadeIn("slow")
+				.text('Aprendendo jQuery')
+				.click(function(){
+					$('body')
+						.css("background", "#C30")
+					$('h1')
+						.css("color", "#FFF")
+					$('a')
+						.css("color", "#FFF");
+				});
+
+			$('a')
+				.css({color: '#C30', display: 'block'})
+				.hide()
+				.delay('2000')
+				.fadeIn('slow')
+		});
+
+	</script>
+</head>
+<body>
+	<h1>Meu site em jQuery</h1>
+	<a href="index.html">Principal</a>
+	<a href="#" class="link2">Anterior</a>
+	<a href="au002.html" id="link3">Próxima</a>
+</body>
+</html>

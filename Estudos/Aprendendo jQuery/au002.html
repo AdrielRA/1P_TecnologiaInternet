@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Seletores Hierárquicos</title>
+	<meta charset="utf-8">
+	<meta lang="pt-BR">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+
+			$('h2').css('margin','0');
+			$('p').css({margin:'0',color:'blue'});
+			$('.div1').css({'margin-bottom':'20px', background:'#CCC'});
+			// Filhas
+			$('.div1 span')
+				.css({color:'green','font-size':'15px'})
+				.hide()
+				.delay('1000')
+				.fadeIn('1000');
+			$('.div1 h2')
+				.hide()
+				.css({'font-size':'50px',color:'red'})
+				.fadeIn('800');
+			// Filhas diretas do Elemento
+			$('.div1 > span').css({color:'red'});
+			// Primeiro Elemento Após o Selecionado
+			$('.p1 + p').css({'font-size':'25px'});
+			// Atacando Todos Elementos Após o Selecionado
+			$('.p1 ~ p').css({color: 'black'});
+
+		});
+	</script>
+</head>
+<body>
+	<div class="div1">
+		<h2>H2 Filho de DIV1</h2>
+		<p>P1 filho de DIV1 <span>SPAN Filho de P</span></p>
+		<span>Span Filho de DIV1</span>
+	</div>
+	<h2>H2 fora de DIV1</h2>
+	<p class="p1">P1 fora de DIV1</p>
+	<p>P2 fora de DIV1</p>
+	<p>P3 fora de DIV3</p>
+
+
+	<a href="index.html">Principal</a>
+	<a href="au001.html" class="link2">Anterior</a>
+	<a href="#" id="link3">Próxima</a>
+</body>
+</html>

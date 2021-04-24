@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulários</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+´<link rel="stylesheet" type="text/css" href="css\style.css">
+</head>
+<body>
+<h1> Cadastro </h1>
+<form name="form">
+
+Nome: <input size="40" maxlength="50" name="txtnome" type="text"> <br>
+Senha: <input name="senha" size="10" maxlength="8" type="password"> <br>
+Idade: <input name="number" type="number" min="0" max="100"> <br>
+Nascimento: <input name="date" type="date"> <br>
+Estado civil: <input name="ecivil" checked="checked" type="radio"> <br>
+Solteiro <input name="ecivil" type="radio"> <br>
+Casado <br>
+
+Quais são os seus interesses neste site?<br>
+<input name="interesse" type="checkbox"> Livros
+<input name="interesse" type="checkbox"> Informática
+<input name="interesse" type="checkbox"> Games
+<input name="interesse" type="checkbox"> Eletrodomésticos <br>
+Em qual estado você mora?
+<select name="estado">
+  <option selected="selected"> MG </option>
+  <option> SP</option>
+  <option> RJ</option>
+  <option> ES</option>
+  <option> GO</option>
+</select> <br>
+
+Como você ficou sabendo do nosso site? <br>
+<select name="fonte" multiple="multiple" size="5">
+  <option> Internet </option>
+  <option> Jornal</option>
+  <option> Rádio</option>
+  <option> Televisão</option>
+  <option> Amigos</option>
+  <option> Outdoor</option>
+</select> <br>
+Deixe aqui suas sugestões: <br>
+<textarea rows="6" cols="50" name="sugestao"> Digite seu texto aqui
+</textarea> <br>
+
+<input name="limpar" value="Limpar" type="reset">
+<input name="bt1" value="OK" type="button">
+<input name="button" value="validar dados" onclick="Validar">
+<input name="bt2" value="enviar" type="submit">
+</form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+html{position: relative;  /* utiliza seu próprio canto para referenciar sua posição */
+    min-height: 100%;}    /* define o menor tamanho responsivo */
+
+body{padding: 0;
+	margin: 0 0 100px;
+	font-family: Arial;}
+
+
+h1{color: white;
+	text-align: center;
+	text-shadow: 1px 1px 1px black;}
+
+
+li{color: #445577;}
+li:houver{color: #334455;}
+
+#menu{
+	margin-right: 17%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-color: #AADDDD;
+	width: 8%;
+	max-width: 100%;
+	min-width: 100px;
+	height: 100%
+}
+
+#topo{display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-color: #0055DD;
+	width: 100%;
+	height: 15%;
+	min-height: 80px;
+	top: 0px;}
+
+#page{display: flex;             /* avisa o navegador que os elementos deverão agir como flexbox*/
+	justify-content: left;     /* centraliza os elementos na horizontal */
+	align-items: center;         /* centraliza os elementos na vertical */
+	position: absolute;          /* utiliza do ponto superior esquerdo de outros elementos */
+	background-color: #1177FF;
+	width: 100%;
+	height: 72.2%;}
+
+
+#fim{display: flex;
+	justify-content: center;
+	position: fixed;         /* A medida que a página é rolada, o elemento continua fixo na posição que você definiu e o conteúdo da página rola normalmente. */
+	background-color: #0055DD;
+	width: 100%;
+	height: 15%;
+	min-height: 100px;
+	position:absolute;
+    bottom: 0px;}

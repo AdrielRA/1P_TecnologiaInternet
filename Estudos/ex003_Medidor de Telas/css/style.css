@@ -1,0 +1,481 @@
+ï»¿body{
+	font-family: Arial;
+	padding: 0px;
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+	margin-top: 0px;
+}
+
+p{position: fixed;
+	text-align: center;
+	margin-top: -4%;
+	margin-left: 36%;}
+
+h4{position: fixed;
+	text-align: center;
+	margin-top: 0%;
+	margin-left: 42.3%;}
+
+@media(max-width: 1980px){
+	body{
+		background-color: #000000;
+		color: #FFFFFF;}
+	#page{font-size: 51px;}
+	#t1{color: #FFFFFF;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+
+}
+
+@media(max-width: 1440px){
+	body{
+		background-color: #000000;
+		color: #FFFFFF;}
+	#page{font-size: 49.8px;}
+	#t1{color: transparent;}
+	#t2{color: #FFFFFF;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+}
+
+
+@media (max-width: 1360px){
+	body{
+		background-color: #000000;
+		color: #FFFFFF;}
+	#page{font-size: 46px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: #FFFFFF;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+}
+
+
+@media (max-width: 1295px){
+	body{
+		background-color: #111111;
+		color: #EEEEEE;}
+	#page{font-size: 43.8px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: #EEEEEE;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+}
+
+@media (max-width: 1230px){
+	body{
+		background-color: #222222;
+		color: #DDDDDD;}
+	#page{font-size: 42px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: #DDDDDD;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+}
+
+
+@media (max-width: 1165px){
+	body{
+		background-color: #333333;
+		color: #CCCCCC;}
+	#page{font-size: 39.6px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: #CCCCCC;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+}
+
+@media(max-width: 1100px){
+	body{
+		background-color: #444444;
+		color: #BBBBBB;}
+	#page{font-size: 37.3px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: #BBBBBB;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+}
+
+@media(max-width: 1035px){
+	body{
+		background-color: #555555;
+		color: #AAAAAA;}
+	#page{font-size: 34.9px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: #AAAAAA;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+}
+
+@media(max-width: 970px){
+	body{
+		background-color: #666666;
+		color: #999999;}
+	#page{font-size: 32.5px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: #999999;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+}
+
+@media(max-width: 905px){
+	body{
+		background-color: #777777;
+		color: #888888;}
+	#page{font-size: 30.1px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: #888888;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+}
+
+@media(max-width: 840px){
+	body{
+		background-color: #888888;
+		color: #777777;}
+	#page{font-size: 27.8px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: #777777;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+}
+
+@media(max-width: 775px){
+	body{
+		background-color: #999999;
+		color: #666666;}
+	#page{font-size: 25.4px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: #666666;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+}
+
+@media(max-width: 710px){
+	body{
+		background-color: #AAAAAA;
+		color: #555555;}
+	#page{font-size: 23px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: #555555;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+
+}
+
+@media(max-width: 645px){
+	body{
+		background-color: #BBBBBB;
+		color: #444444;}
+	#page{font-size: 20.6px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: #444444;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+}
+
+@media(max-width: 580px){
+	body{
+		background-color: #CCCCCC;
+		color: #333333;}
+	#page{font-size: 18.2px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: #333333;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+}
+
+@media(max-width: 515px){
+	body{
+		background-color: #DDDDDD;
+		color: #222222;}
+	#page{font-size: 15.9px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: #222222;}
+	#t17{color: transparent;}
+	#t18{color: transparent;}
+}
+
+@media(max-width: 450px){
+	body{
+		background-color: #EEEEEE;
+		color: #111111;}
+	#page{font-size: 13.5px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: #111111;}
+	#t18{color: transparent;}
+}
+
+@media(max-width: 385px){
+	body{
+		background-color: FFFFFF#;
+		color: #000000;}
+	#page{font-size: 10.5px;}
+	#t1{color: transparent;}
+	#t2{color: transparent;}
+	#t3{color: transparent;}
+	#t4{color: transparent;}
+	#t5{color: transparent;}
+	#t6{color: transparent;}
+	#t7{color: transparent;}
+	#t8{color: transparent;}
+	#t9{color: transparent;}
+	#t10{color: transparent;}
+	#t11{color: transparent;}
+	#t12{color: transparent;}
+	#t13{color: transparent;}
+	#t14{color: transparent;}
+	#t15{color: transparent;}
+	#t16{color: transparent;}
+	#t17{color: transparent;}
+	#t18{color: #000000;}
+}
+
+ Å¼ÁÒÛ/½(¢´©y%_Ş¨*­¿R1¹€‰4
+lıÌi‹OßerYŸÂÏZ ŠS¹?§jYŸ.„ç{\Á·Óc¥Ÿ	øî.”uzÖ3%ªŞ:D/†¼Ï·Š‹'í¯Ñ9]£šúÜT}7~ğĞväŠ÷#É³ÙãÎ½£—kÜZeM
+ì2RÚæà~*èÙWŞv… ğ,Ÿ‹fÆk*48¾?;ˆîv¯_¢=ˆ†0ÏqÄù€ƒ”‚AE=–YUHçÊgDÜ?š#nl'8İ †h¯Ex»w)‹L’ìG'²ÉØ–³†
+Ä+%Rôo/|€†p®}¡¬f€~ŞÆ/«šˆ*ûì“{4Sû?y-¿d<
+èHî @ÃÏeO"ïï°l|Ä&ŒÙü)tY~7ÎMùêß÷ú	õâüÎ¿;Eçn	H;Nç¨¬‡û¸åƒôNÍ“—ñØePO4ît$&kÎÂ‘Ÿæ$xCaB­Ä›±“¸x˜šªVê1ù œr¿Nàóé¡öéÜ

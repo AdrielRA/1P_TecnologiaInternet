@@ -1,0 +1,310 @@
+/* Parte comum para toda página */
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+
+*{padding: 0px; margin: 0px; text-align: center;}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: #EEEEEE;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #111111;
+	text-align: center;}
+
+::-webkit-scrollbar{width: 12px;}
+ 
+::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+	border-radius: 10px;}
+ 
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background-color: white;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); }
+
+.links{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	display: flex;}
+
+.links label{
+	padding: 10px 0;
+	flex-grow: 1;
+	cursor: pointer;
+	transition: all 0.4s;
+	text-align: center;
+	font-size: 110%;
+	text-shadow: 1px 1px 1px #111111;
+	color: #FFFFFF;
+	border-right: solid 1px rgba(255, 255, 255, 0.2);}
+
+.links label:hover{background-color: rgba(255, 255, 255, 0.2);}
+
+.scroll input{display: none;}
+
+.scroll{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;}
+
+.sections{transition: all 0.4s;}
+
+.bloco{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;}
+
+.conteudo{
+	z-index: 2;
+	font-family: Lato;
+	font-size: 100%;
+	color: #FFFFFF;
+	display: block;}
+
+/*---------------------------------------------------*/
+/* Começo do Conteúdo Inicial */
+
+h1{
+	padding: 5%;
+	padding-top: 0%;
+	padding-bottom: 0%;}
+
+p{
+	padding: 5%;
+	padding-top: 0%;
+	padding-bottom: 0%;}
+
+.inicio{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	color: #EEEEEE;
+	display: flex;
+	justify-content: center;
+	align-items: center;}
+
+#infos{position: absolute;
+	padding-bottom: 10%;
+	z-index: 2;
+	transition: 1s;
+	filter: grayscale(50%);}
+
+#infos:hover{
+	transition: 1s;
+	filter: grayscale(0%);}
+
+#bg{width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	background: url("../img/_002.jpg") no-repeat top center;
+	background-size: cover;
+	transition: 1s;
+	filter: blur(4px);
+	filter: brightness(30%);}
+
+#bg:hover{
+	transition: 1s;
+	filter: blur(1px);
+	filter: brightness(80%);}
+
+#main_btn{
+	background-color: #7FFF00;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 50px;
+	border: none;
+	padding: 20px;
+	line-height: 10px;
+	position: relative;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: all 0.4s ease;}
+
+#main_btn:hover{
+	-webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        	transform: scale(1.3);}
+
+/* Fim do Conteúdo Inicial */
+
+/*---------------------------------------------------*/
+/* Começo do Conteúdo da História */
+
+.container{
+	margin-top: 50px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;}
+
+#h-img{
+	width: 50vw;
+	height: 90vh;
+	position: absolute;
+	right: 1vw;
+	top: -44vh;
+	background: url("../img/Fb/Alf (6).png") no-repeat bottom center;
+	background-size: cover;}
+
+.resumo{position: absolute;
+	float: left;
+	margin-bottom: 40px;
+	padding: 30px;
+	width: 50vw;
+	max-height: 70vh;
+	left: -10vw;
+	border: solid 2px #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.1);
+	text-shadow: 1px 1px 1px #111111;
+	overflow-y: scroll;}
+
+#historia h1{margin-bottom: 20px;}
+
+#historia p{text-indent: 2cm; text-align: justify;}
+
+/* Fim do Conteúdo da História */
+
+/*---------------------------------------------------*/
+/* Começo do Conteúdo das Personalidades */
+
+/* NADA AINDA NADA AINDA NADA AINDA */
+
+/* Fim do Conteúdo das Personalidades */
+
+/*---------------------------------------------------*/
+/* Começo do Conteúdo Sobre */
+
+#sobre img{
+	width: 10vw;
+}
+
+/* Fim do Conteúdo Sobre */
+
+/*---------------------------------------------------*/
+/* Parte responsável pelo efeito FullPage */
+
+#op_historia:checked ~ .inicio{position: absolute;}
+
+#op_historia:checked ~ .sections{margin-top: -100vh;}
+
+#op_personalidades:checked ~ .sections{margin-top: -200vh;}
+
+#op_sobre:checked ~ .sections{margin-top: -300vh;}
+
+/*---------------------------------------------------*/
+/* Cores dos fundos */
+
+#historia{background-color: #437FC2;}
+
+#personalidades{background-color: #FFAAAA;}
+
+#sobre{background-color: #414950;}
+
+/* Configurações de responsividade */
+
+
+
+@media (min-width: 3840px){
+	h1{font-size: 235px;}
+	p{font-size: 60px;}
+	#main_btn{
+		border-radius: 35px;
+		font-size: 60px;
+		padding: 80px;
+		line-height: 35px;}}
+
+@media (max-width: 3839px){
+	h1{font-size: 156px;}
+	p{font-size: 40px;}
+	#main_btn{
+			border-radius: 20px;
+			font-size: 40px;
+			padding: 50px;
+			line-height: 20px;}}
+
+@media (max-width: 2560px){
+	h1{font-size: 90px;}
+	p{font-size: 22.4px;}
+	#main_btn{
+		border-radius: 15px;
+		font-size: 22.4px;
+		padding: 20px;
+		line-height: 20px;
+		}}
+
+@media (max-width: 1920px){
+	h1{font-size: 90px;}
+	p{font-size: 22.4px;}
+	#main_btn{
+		border-radius: 15px;
+		font-size: 22.4px;
+		padding: 30px;
+		line-height: 15px;}}
+
+@media (max-width: 1440px){
+	h1{font-size: 84.9px;}
+	p{font-size: 21.9px;}
+	#main_btn{
+		border-radius: 15px;
+		font-size: 21.9px;
+		padding: 30px;
+		line-height: 15px;}}
+
+@media (max-width: 1360px){
+	h1{font-size: 81.4px;}
+	p{font-size: 20.8px;}}
+
+@media (max-width: 1300px){
+	h1{font-size: 59.5px;}
+	p{font-size: 15px;}}
+
+@media (max-width: 950px){
+	h1{font-size: 47px;}
+	p{font-size: 18px;}
+	#main_btn{margin-top: 10px;
+		padding: 10px;
+		line-height: 20px;
+		border-radius: 5px;
+		font-size: 18px;}}
+
+@media (max-width: 750px){
+	h1{font-size: 33px;}
+	p{font-size: 15px;}
+	#main_btn{margin-top: 10px;
+		padding: 10px;
+		line-height: 20px;
+		border-radius: 5px;
+		font-size: 15px;}}
+
+@media (max-width: 540px){
+	h1{font-size: 30.1px;}
+	p{font-size: 12px;}
+	#main_btn{margin-top: 10px;
+		padding: 12px;
+		line-height: 12px;
+		border-radius: 5px;
+		font-size: 12px;}}
+
+@media (max-width: 480px){
+	h1{font-size: 26px;}
+	p{font-size: 10px;}
+	#main_btn{margin-top: 10px;
+		padding: 10px;
+		line-height: 10px;
+		border-radius: 5px;
+		font-size: 10px;}}
+
+@media (max-width: 320px){
+	h1{font-size: 19px;}
+	p{font-size: 8px;}
+	#main_btn{margin-top: 10px;
+		padding: 10px;
+		line-height: 10px;
+		border-radius: 5px;
+		font-size: 8px;}}

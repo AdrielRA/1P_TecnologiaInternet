@@ -1,0 +1,17 @@
+body{
+	font-family: Arial;
+	background-color: #00FA9A;
+}
+
+input{
+	background-color: #FAFAD2;
+	border-radius: 10px;
+}
+
+select{
+	background-color: #FAFAD2;
+}
+textarea{
+	border-radius: 10px;
+	background-color: #FAFAD2;
+}

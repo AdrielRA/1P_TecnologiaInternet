@@ -1,0 +1,1 @@
+$('#v1').click(function(){ $('.menu').hide(); });
